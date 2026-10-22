@@ -1,0 +1,90 @@
+{
+  "demand_score": {
+    "LinearRegression": {
+      "MAE": 8.076,
+      "RMSE": 10.006,
+      "R2": 0.5978
+    },
+    "DecisionTree": {
+      "MAE": 7.211,
+      "RMSE": 9.055,
+      "R2": 0.6707
+    },
+    "RandomForest": {
+      "MAE": 6.77,
+      "RMSE": 8.521,
+      "R2": 0.7083
+    },
+    "XGBoost": {
+      "MAE": 6.676,
+      "RMSE": 8.302,
+      "R2": 0.7232
+    }
+  },
+  "occupancy_pct": {
+    "LinearRegression": {
+      "MAE": 8.115,
+      "RMSE": 10.138,
+      "R2": 0.5677
+    },
+    "DecisionTree": {
+      "MAE": 7.562,
+      "RMSE": 9.616,
+      "R2": 0.611
+    },
+    "RandomForest": {
+      "MAE": 7.007,
+      "RMSE": 8.795,
+      "R2": 0.6746
+    },
+    "XGBoost": {
+      "MAE": 7.045,
+      "RMSE": 8.747,
+      "R2": 0.6782
+    }
+  },
+  "revenue": {
+    "LinearRegression": {
+      "MAE": 49434.377,
+      "RMSE": 72710.391,
+      "R2": 0.8502
+    },
+    "DecisionTree": {
+      "MAE": 24736.828,
+      "RMSE": 51519.648,
+      "R2": 0.9248
+    },
+    "RandomForest": {
+      "MAE": 23470.551,
+      "RMSE": 45126.907,
+      "R2": 0.9423
+    },
+    "XGBoost": {
+      "MAE": 23300.974,
+      "RMSE": 44472.299,
+      "R2": 0.944
+    }
+  },
+  "seat_availability": {
+    "LinearRegression": {
+      "MAE": 20.072,
+      "RMSE": 29.133,
+      "R2": 0.8723
+    },
+    "DecisionTree": {
+      "MAE": 14.461,
+      "RMSE": 23.54,
+      "R2": 0.9166
+    },
+    "RandomForest": {
+      "MAE": 13.182,
+      "RMSE": 21.198,
+      "R2": 0.9324
+    },
+    "XGBoost": {
+      "MAE": 13.28,
+      "RMSE": 21.656,
+      "R2": 0.9294
+    }
+  }
+}

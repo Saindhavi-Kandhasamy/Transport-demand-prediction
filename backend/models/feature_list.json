@@ -1,0 +1,1 @@
+["weekday", "month", "is_weekend", "is_holiday", "is_festival", "source_enc", "destination_enc", "transport_mode_enc", "weather_enc", "traffic_enc", "dep_hour", "capacity"]
